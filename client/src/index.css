@@ -1,0 +1,539 @@
+.driver-container {
+    padding: 2rem;
+  }
+  
+  .driver-card {
+    padding: 2rem;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .driver-image-container {
+    margin-bottom: 1.5rem;
+  }
+  
+  .driver-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+  }
+  
+  .driver-name {
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+  
+  .driver-email {
+    color: #888;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .driver-details label {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .social-buttons .btn-icon {
+    font-size: 1.5rem;
+    color: #888;
+  }
+  .background-images {
+    background-color: #aaaaaa;;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    position: relative;
+    z-index: 1;
+  }
+  .progress-circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .progress-background,
+  .progress-bar {
+    background-color: rgba(255, 255, 255, 0.486);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .progress-background {
+    width: 100%;
+    height: 100%;
+    border: 10px solid #0fbfd6; 
+    box-sizing: border-box;
+    box-shadow: inset 0 2px 6px rgba(224, 10, 10, 0.1),
+              inset 0 -3px 6px rgb(231, 2, 193);
+}
+
+
+  
+
+  .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    color: #000000; 
+  }
+  .progress-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 10%; 
+}
+.progress-info {
+    position: absolute;
+    bottom: 32px; 
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px; 
+    color: #000000;
+    text-align: center;
+}
+.clocks{
+    display: flex;
+    gap:5%;
+}
+.today-clock {
+    font-weight: bold; 
+  }
+
+  /* upadte driver form css */
+  .gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+
+
+    .fa, .fas {
+      font-weight: 1200;
+      font-size: large;
+  }
+
+
+/* src/UpdateDriver.css */
+
+.custom-bg {
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.custom-card {
+  background-color: white;
+  border-radius: 0.5rem; /* equivalent to 'rounded-lg' */
+  border: 1px solid #e2e8f0;
+}
+
+.custom-button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+.custom-button.loading {
+  color: white;
+  cursor: not-allowed;
+  background-color: #846CF9;
+}
+
+.custom-link {
+  color: #007bff;
+}
+
+.custom-link:hover {
+  text-decoration: underline;
+}
+
+.custom-footer {
+  border-top: 1px solid #ddd;
+  padding: 1rem 0;
+  margin-top: 1rem;
+}
+
+
+/* buy plans */
+/* body{margin-top:20px;} */
+.pricing-box {
+  -webkit-box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1);
+  padding: 35px 50px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.pricing-box .plan {
+  font-size: 34px;
+}
+
+.pricing-badge {
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  right: 0;
+  width: 100%;
+  display: block;
+  font-size: 15px;
+  padding: 0;
+  overflow: hidden;
+  height: 100px;
+}
+
+.pricing-badge .badge {
+  float: right;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  right: -67px;
+  top: 17px;
+  position: relative;
+  text-align: center;
+  width: 200px;
+  font-size: 13px;
+  margin: 0;
+  padding: 7px 10px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #fb7179;
+}
+.mb-2, .my-2 {
+    margin-bottom: .5rem!important;
+}
+p {
+    line-height: 1.7;
+}
+
+
+
+.fuel-history-calendar {
+  position: relative;
+  width: 250px;
+  float: right;
+}
+
+.fuel-history-calendar button {
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fuel-history-calendar button:hover {
+  background-color: #000; /* Black background on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.calendar-popup {
+  position: absolute;
+  top: 60px;
+  left: -100%;
+  width: 250px;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px;
+  z-index: 1000;
+}
+
+
+.fuel-history-dropdown {
+  margin-top: 20px;
+}
+
+.fuel-dropdown {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.fuel-dropdown option {
+  padding: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+/* Custom dark styling for pagination */
+.pagination-dark .page-link {
+  color: #f8f9fa; /* Light color for text on dark background */
+  background-color: #343a40; /* Dark background color */
+  border-color: #343a40; /* Dark border color */
+}
+
+.pagination-dark .page-item.active .page-link {
+  background-color: #495057; /* Darker color for active page */
+  border-color: #495057; /* Darker border color for active page */
+}
+
+.pagination-dark .page-link:hover {
+  background-color: #495057; /* Darker hover color */
+  border-color: #495057; /* Darker border color on hover */
+}
+
+.pagination-dark .page-link:disabled {
+  background-color: #6c757d; /* Disabled color */
+  border-color: #6c757d; /* Disabled border color */
+}
+.custom-modal-width .modal-dialog {
+  max-width: 80%;
+}
+.modal-dialog-top {
+  margin-left: 10%; 
+  top: 0; 
+  position: absolute; 
+}
+
+.modal.fade .modal-dialog {
+  transition: transform 0.3s ease-out; 
+  transform: translateY(-100%); 
+}
+
+.modal.show .modal-dialog {
+  transform: translateY(0); 
+}
+.small-currency {
+  font-size: 0.8rem; /* Adjust the size as needed */
+  font-weight: normal; /* Ensure it's not bold */
+}
+/* checkout page css */
+
+
+
+.container-fluid {
+  width: 100%; /* Full width */
+  
+}
+
+.form-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Padding inside form */
+}
+
+h4 {
+  font-weight: bold;
+  color: #333;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.form-control, .form-select {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #f8f9fa;
+}
+
+textarea.form-control {
+  resize: none;
+}
+
+.btn-secondary {
+  background-color: #b0b0b0;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.btn-warning {
+  background-color: #eee;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+
+.custom-btn {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-btn:hover {
+  background-color: #003366; 
+  color: white;   
+}
+
+
+/*
+.sidebar-wrapper{
+  background: #0a1851 !important;
+} */
+
+
+
+/* .sidebar-wrapper{
+  background: black !important;
+} */
+
+
+.error{
+  color:red !important;
+}
+
+
+.content {
+  background-color: rgb(238, 241, 249);
+  --tw-bg-opacity: 1; 
+}
+
+
+.sidebar-wrapper {
+  background-color: white !important; 
+}
+
+/* vehiled list css btn */
+.btn-custom-view {
+  background-color: #7aaee6; 
+  color: white;
+}
+
+.btn-custom-edit {
+  background-color: #3fb558; 
+  color: black;
+}
+
+.btn-custom-delete {
+  background-color: #d41024; 
+  color: white;
+}
+
+
+
+.nav-link {
+  color: #475569 !important;
+}
+
+.nav-link.active {
+  background-color: #846cf9 !important;
+  color: white !important;
+}
+
+/* Active dropdown styles */
+.nav-link.active-bg {
+  background-color: #846cf9 !important;
+}
+
+.nav-item .nav-link.active {
+  background-color: #846cf9 !important;
+}
+
+.simple-text {
+  color: black !important; 
+  font-size: 18px !important;
+}
+
+
+/* styles.css */
+.card {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  border: 0px solid #e2e8f0;
+  padding: 30px;
+  margin-bottom: 1rem;
+  box-shadow: 0px 2px 4px -1px rgb(179 189 215 / 20%);
+}
+
+
+
+.css-hud6bj-MuiLinearProgress-bar1 {
+  background-color: #846CF9 !important;
+}
+
+
+.custom-button {
+  background-color: #846CF9;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.custom-button:hover {
+  background-color: #846CF9;
+  color: white;
+}
+
+.date-range-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: #ffffff;
+  margin-bottom: 3px;
+}
+
+.date-range-container > div {
+  background-color: #F0F0F0;
+  padding: 7px;
+  flex: 1;
+}
+
+.date-range-container label {
+  display: block;
+  background-color: #F0F0F0;
+  margin-bottom: 5px;
+}
+
+.fleetPerformance_card > .report-snapshot-header .date-picker-container > .date-range-container .react-datepicker-wrapper > .react-datepicker__input-container {
+  width: 140px;
+}
+
+.fleetPerformance_card > .report-snapshot-header .date-picker-container > .date-range-container .react-datepicker-wrapper > .react-datepicker__input-container > input[type="text"] {
+  width: 100%;
+}
+
+.fleetPerformance_card > .report-snapshot-header .date-picker-container > .date-range-container .react-datepicker-wrapper > .react-datepicker__input-container > input[type="text"] {
+  width: 100%;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 2px 6px;
+}
+
+.highcharts-credits{
+  display: none !important;
+}
